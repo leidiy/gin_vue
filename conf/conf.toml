@@ -1,0 +1,33 @@
+#[app]
+title = "blog"
+explain = "这是一个爱学习的boy"
+mod = "dev"
+addr = "80"
+srv = "127.0.0.1:8088"
+jwtKey = "123456"
+jwtExp = "5"
+
+[author]
+name = "zlx"
+website = "www.baidu.com"
+
+[weChat]
+appId = "appId"
+appSecret = "appSecret"
+
+[database]
+user = "root"
+password = "password"
+host = "127.0.0.1"
+port = "3306"
+dbName = "blog"
+params = "charset=utf8&parseTime=true"
+
+[gorm]
+idle = 4
+open = 8
+show = true
+sync = false
+cache_enable = true
+cache_count = 1000
+
